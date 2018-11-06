@@ -5,7 +5,23 @@ The application receives device coordinates as input and returns the ideal link 
 
 Base station list:
 
+(0,0,10)
+(20,20,5)
+(10,0,12)
 
+Example output:
+
+Input:(0,0)
+Best link station is at (0,0), power is 100.0
+
+Input:(100,100)
+No link station in range for device at 100,100
+
+Input:(15,10)
+Best link station is at (10,0), power is 0.6718427000252355
+
+Input:(18,18)
+Best link station is at (20,20), power is 4.715728752538098
 
 1. Running the compiled jar
 

@@ -20,7 +20,7 @@ public class LinkUtils {
 
         double dist = calculateDistance(device.getPoint(), station.getPoint());
 
-        if(dist>0){
+        if(dist>=0){
             if(station.getReach()>dist) {
                 return Math.pow((station.getReach() - dist), 2);
             }
